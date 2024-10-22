@@ -1,0 +1,46 @@
+.maincard:hover{
+background-color:pink;
+
+}
+/* style1.css */
+.maincard {
+    height: auto; /* Allow height to adjust based on content */
+    width: 10rem; /* Fixed width */
+    margin: 10px; /* Margin around the card */
+    transition: background-color 0.3s, border 0.3s; /* Smooth transition */
+    border: 1px solid #ddd; /* Light border for default state */
+    border-radius: 8px; /* Rounded corners */
+    
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange children in a column */
+}
+
+.maincard img {
+    height: 150px; /* Fixed height for the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    
+}
+
+.card-body {
+    display: flex; /* Use flexbox to layout the body */
+    flex-direction: column; /* Arrange children in a column */
+    justify-content: space-between; /* Space out elements */
+    height: 100%; /* Allow body to take full height of card */
+}
+
+.card-title {
+    font-weight: bold; /* Bold title */
+    font-size: 1rem; /* Title size */
+    margin: 0.5rem 0; /* Space around title */
+}
+
+.card-text {
+    font-size: 0.9rem; /* Slightly larger description text */
+    color: #555; /* Darker text for better readability */
+    margin-bottom: 1rem; /* Space below text */
+}
+
+button {
+    margin-top: auto; /* Push button to the bottom */
+    width: 100%; /* Full width button */
+}
