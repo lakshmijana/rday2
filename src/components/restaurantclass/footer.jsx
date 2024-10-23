@@ -2,7 +2,7 @@
 import React, { Component } from "react";
 import "./foot.css"
 
-class Foot extends Component{
+class Footcomp extends Component{
     render(){
         return(
             <>
@@ -31,4 +31,4 @@ class Foot extends Component{
         )
     }
 }
-export default Foot;
+export default Footcomp;
