@@ -11,6 +11,7 @@ import Menu from './components/restaurantclass/menu'
 // import Footer from './components/restauboot/footer'
 // import Footerr from './components/restaurantclass/footer'
 // import Footcomp from './components/restaurantclass/footer'
+import H1 from './classcomponents/class1'
 
 function App() {
   return(
@@ -25,12 +26,12 @@ function App() {
 {/* <Comp2/> */}
 {/* <Comp3/> */}
 {/* <Footer/> */}
- { <Finalres/> } 
+ {/* { <Finalres/> }  */}
  {/* <Component2/>
  <Component1/>
  <Menu/>
  <Footcomp/> */}
-
+<H1/>
     </>
   )
   
