@@ -9,7 +9,9 @@ import Component1 from './components/restaurantclass/caros'
 import Component2 from './components/restaurantclass/nav'
 import Menu from './components/restaurantclass/menu'
 // import Footer from './components/restauboot/footer'
-import Footerr from './components/restaurantclass/footer'
+// import Footerr from './components/restaurantclass/footer'
+import Foot from "./components/restaurantclass/footer"
+
 function App() {
   return(
     <>
@@ -23,11 +25,11 @@ function App() {
 {/* <Comp2/> */}
 {/* <Comp3/> */}
 {/* <Footer/> */}
-{/* <Finalres/> */}
-<Component2/>
-<Component1/>
-<Menu/>
-<Footerr/>
+{ <Finalres/> }
+{/* // <Component2/>
+// <Component1/>
+// <Menu/>
+// <Footerr/> */}
     </>
   )
   
