@@ -12,6 +12,7 @@ import Menu from './components/restaurantclass/menu'
 // import Footerr from './components/restaurantclass/footer'
 // import Footcomp from './components/restaurantclass/footer'
 import H1 from './classcomponents/class1'
+import Increment from './increment'
 
 function App() {
   return(
@@ -31,7 +32,8 @@ function App() {
  <Component1/>
  <Menu/>
  <Footcomp/> */}
-<H1/>
+{/* <H1/> */}
+<Increment/>
     </>
   )
   
